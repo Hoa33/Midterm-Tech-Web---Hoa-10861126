@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eZTravel APP</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        a:link {
+            color: blueviolet;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: blueviolet;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color:blueviolet;
+            text-decoration: none;
+        }
+        
+        a:active {
+            color: blueviolet;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page">   
+        <div data-role="header" data-position="fixed" style="background:-webkit-linear-gradient(rgb(120, 189, 165),rgb(100,47,90));">
+            <h1 style="color:white;text-align:center;font-size:24px;">Life Magazine</h1>
+            <a class="ui-btn ui-btn-right ui-btn-icon-left ui-icon-info ui-btn-icon-notext ui-corner-all" style="margin:12px;"></a>
+        </div>
+        <div style="margin-top: 50px;" role="main" class="ui-content">
+            <div is="grid" class="ui-grid-b" style="height:150px">
+                <div class="ui-block-a" style="height:210%;text-align:center">
+                    <a href="#Tourism" rel="internal">
+                    <img src="images/travelling.png" style="width:100px; margin:5px 15px 5px 25px">
+                    <h5  style="text-align:center; margin-top:-4px;">Tourism</h5>
+                </a>
+                </div>
+                <div class="ui-block-b" style="height:240%;text-align:center">
+                    <a href="#Cuisine" rel="internal">
+                    <img  src="images/food.png" style="width:100px; margin-left:10px;">
+                    <h5  style="text-align:center; margin-top:-4px;margin-left:20px;">Cuisine</h5>
+                </a>
+                </div>
+                <div class="ui-block-c" style="height:210%;text-align:center">
+                    <a href="#Bookstore" rel="internal">
+                    <img  src="images/bookstore.jpg" style="width:120px; margin:5px 15px 5px 25px">
+                    <h5  style="text-align:center; margin-top:-4px;">Bookstore</h5>
+                </a>
+                </div>
+            </div>
+            <div is="grid" class="ui-grid-b" style="height:250px">
+                <div class="ui-block-a" style="height:200%;text-align:center">
+                <a href="#Online Shopping" rel="internal">
+                    <img  src="images/Online Shopping.jpg" style="width:180px; margin-left:10px;">
+                    <h5  style="text-align:center; margin-top:-4px;margin-left:20px;">Online Shopping</h5>
+                  </a>
+               </div>
+            <div class="ui-block-b" style="height:240%;text-align:center">
+                <a href="#Fashion Clothes" rel="internal">
+                <img  src="images/fashion clothes.jpg" style="width:100px; margin:5px 15px 5px 25px">
+                <h5  style="text-align:center; margin-top:-4px;">Fashion Clothes</h5>
+            </a>
+                </div>
+                <div class="ui-block-c" style="height:200%;text-align:center">
+                    <a href="b.html" rel="external">
+                        <img  src="images/movie.png" style="width:100px; margin-left:10px;">
+                        <h5  style="text-align:center; margin-top:-6px;margin-left:15px;">Movies</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+            <h3>@Life Magazine Store</h3>            
+        </div>
+    </div>
+
+    <!-- Start of Tourism page  -->
+    <div is="page" id="Tourism" data-role="page" data-position="fixed" data-theme="c">
+        <div id="banner" style="background-position: center center; background-size: cover; background-image: url(images/Covertourism.jpg); height: 600px;" >
+          <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide"s href="index.html" rel="internal"></a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+          <h2 style="text-align: center">Tourist destination</h2>
+          <table >
+            <tr>
+              <td >
+                <p><strong>Taiwan - Taipei</strong></p>
+                <p>The capital of Taiwan is a marvelous place to visit, with a plethora of things for visitors to see and do. It is not only the political and economic hub of the island, but also the cultural one, as there is a lively arts and culture scene. With an intoxicating mix of old and new to be found in the delicious food and stunning architecture, it is a captivating city to visit. Old temples are located amidst the skyscrapers, and the towering Taipei 101 actually used to be the tallest building in the world. Fantastic restaurants, shops and bars abound in this bustling city, and there are loads of attractions on offer such as the Taipei Zoo, the Botanical Garden and the wonderful temple of Hsing Tian Kong.
+                    For an authentic look at the local culture, head to the fun and friendly Raohe Street Night Market for some great food and entertainment, while numerous museums such as the National Palace Museum are on hand to help you delve further into the rich cultural heritage of Taiwan. After your time in Taipei, you’ll come away tired but happy at all of the amazing things that you’ve seen and done.</p> 
+              </td>
+              <td ><img src="images/Taipei city.jpg" alt="Taipei" style="float:right;width:190px;height:160px;"></td>
+              
+            </tr>
+            <tr>
+              <td ><img src="images/Tokyo.jpg" alt="Tokyo" style="float:left;width:200px;height:180px;"></td>
+              <td >
+                <p><strong>Japan - Tokyo</strong></p>
+                <p>The Japanese capital city of Tokyo is a large, energetic and incredible destination. In the most populated city in the world, you’ll be able to tour temples, dine on countless Japanese culinary delicacies and shop in some of the world’s biggest and most unusual malls. With so much to do, see and explore in Tokyo, planning your own itinerary can be overwhelming. Make it simpler by sticking to these top tourist attractions in Tokyo.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><strong>Vietnam - Hanoi</strong></p>
+                <p>Dive into Hanoi's pulsating city streets, and you'll capture the essence of Vietnamese life. The country's capital is a burgeoning economic center that still clings strongly to traditional culture, managing to be a showcase of both old and modern Vietnam. The old quarter district hums with street vendor action; the cafés and restaurants are vibrant, contemporary scenes; and just trying to cross a road here can end up being an adrenaline-fueled escapade. When the crowds begin to wear you down, Hanoi has a bundle of sites where you can escape for some peace. Hoan Kiem Lake is a relaxing respite right within the city, while the Temple of Literature and Vietnam Museum of Ethnology provide plenty of opportunities to reflect on Vietnam's grand history.</p>
+              </td>
+              
+              <td><img src="images/HCM Mausoleum.jpg" alt="Hanoi capital" style="float:right;width:200px;height:170px;"></td>
+            </tr>
+            <tr>
+              <td><img src="images/Seoul- Korea.jpg" alt="Seoul" style="float:left;width:180px;height:190px;"></td>
+              
+              <td>
+                <p><strong>South Korea</strong></p>
+                <p> Seoul is one of the most exciting mega cities in Asia, and a major travel destination in the coming years due to the Winter Olympics 2018. Head to Seoul and you’ll find a mix of traditional and modern, with countless attractions and sites to explore for any taste! Gyeongbokgung is the largest and most important of them all. Often compared to the Forbidden City in Beijing, Gyeongbokgung is a large palace complex that also houses the National Folk Museum of Korea.</p>
+              </td>
+            </tr>
+          </table>  
+        </div>
+        <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+          <h3>@Life Magazine Store</h3>            
+        </div>
+      </div>
+
+<!-- Start of Cuisine page  -->
+<div  is="page" id="Cuisine" data-role="page" data-position="fixed" data-theme="c">
+    <div is="header" data-role="header" data-position="fixed" data-theme="a">
+      <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide"s href="index.html" rel="internal"></a>
+      <h3>Taiwanese Food</h3>
+    </div>
+    <div is="content" role="main" class="ui-content" style="margin:4 -10px">
+      <div is="grid" class="ui-grid-solo" style="height:300px">
+        <div is="block" class="ui-block-a" style="height:150%">
+          <img is="dragable" src="images/Pineapple cake.jpg" style="width:100px; height:200px; margin:30p;">
+          <img is="dragable" src="images/Pidan tofu.jpg" style="width:150px; height:200px; margin:30p;">
+          <img is="dragable" src="images/Mike tea.jpg" style="width:100px; height:200px; margin:30p;">
+          <img is="dragable" src="images/Dumplings.jpg" style="width:100px; height:200px; margin-bottom:10px;">
+          <img is="dragable" src="images/banh-mi-quan-tai-mon-.jpg" style="width:150px; height:200px; margin:30p;">
+        </div>
+      </div>
+      <div is="grid" class="ui-grid-solo" style="height:300px">
+        <div is="block" class="ui-block-a" style="height:100%">
+          <img is="dragable" src="images/muc-nuong-than.jpg" style="width:100px; height:150px; margin-bottom:10px;">
+          <img is="dragable" src="images/banh kep.jpg" style="width:100px; height:150px; margin:30p;">
+          <img is="dragable" src="images/3 chicken.jpg" style="width:100px; height:150px; margin:30p;">
+          <img is="dragable" src="images/bingsu-mango-e1534311460645.jpg" style="width:150px; height:150px; margin:30p;">
+          <img is="dragable" src="images/banh khoai chien.jpg" style="width:150px; height:150px; margin:30ppx;">
+        </div>
+      </div>
+    </div>  
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>@Life Magazine Store</h3>            
+    </div>
+  </div>
+
+ <!-- Start of Bookstore page  -->
+ <div is="page" id="Bookstore" data-role="page" data-position="fixed" data-theme="c">
+    <div id="banner" style="background-position: center center; background-size: cover; background-image: url(images/Coverbook.jpg); height: 600px;" >
+      <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide"s href="index.html" rel="internal"></a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <h2 style="text-align: center">Kind of Books</h2>
+      <table >
+        <tr>
+          <td >
+            <p><strong>Novel</strong></p>
+            <p>The Old Man and the Sea tells the story of a battle between an aging, experienced fisherman, Santiago, and a large marlin. The story opens with Santiago having gone 84 days without catching a fish, and now being seen as "salao", the worst form of unluckiness. He is so unlucky that his young apprentice, Manolin, has been forbidden by his parents to sail with him and has been told instead to fish with successful fishermen. The boy visits Santiago's shack each night, hauling his fishing gear, preparing food, talking about American baseball and his favorite player, Joe DiMaggio. Santiago tells Manolin that on the next day, he will venture far out into the Gulf Stream, north of Cuba in the Straits of Florida to fish, confident that his unlucky streak is near its end.</p> 
+          </td>
+          <td ><img src="images/ong gia va bien ca.jpg" alt="The Old Man and the Sea" style="float:left;width:190px;height:160px;">
+        </td>   
+        </tr>
+        <tr>
+          <td ><img src="images/I Am Gifted, So Are You.png" alt="I Am Gifted, So Are You" style="float:right;width:200px;height:180px;"></td>
+          <td >
+            <p><strong>References Book</strong></p>
+            <p>The author shares the "secrets" of his success with readers in simple and clear terms, with exercises to help train others in his techniques. It takes the reader on an exhilarating journey of self-discover and it is not just about learning, but stretching and realising one's potential.
+                It is the perfect book for students, parents, educators and anyone who wants to enhance his or her brainpower.
+                
+                If you want to be "gifted" in superior learning and thinking strategies, this is the book for you!</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p><strong>Science book</strong></p>
+            <p>Various evolutionary ideas had already been proposed to explain new findings in biology. There was growing support for such ideas among dissident anatomists and the general public, but during the first half of the 19th century the English scientific establishment was closely tied to the Church of England, while science was part of natural theology. Ideas about the transmutation of species were controversial as they conflicted with the beliefs that species were unchanging parts of a designed hierarchy and that humans were unique, unrelated to other animals. The political and theological implications were intensely debated, but transmutation was not accepted by the scientific mainstream.</p>
+          </td>
+          
+          <td><img src="images/Origin of species.jpg" alt="Origin of species" style="float:left;width:200px;height:170px;"></td>
+        </tr>
+        <tr>
+          <td><img src="images/Grammar English book.jpg" alt="English book" style="float:right;width:180px;height:190px;"></td>
+          
+          <td>
+            <p><strong>Foreign language book</strong></p>
+            <p> This groundbreaking undergraduate textbook on modern Standard English grammar is the first to be based on the revolutionary advances of the authors' previous work, The Cambridge Grammar of the English Language (2002). The text is intended for students in colleges or universities who have little or no previous background in grammar, and presupposes no linguistics. It contains exercises, and will provide a basis for introductions to grammar and courses on the structure of English, not only in linguistics departments but also in English language and literature departments and schools of education.</p>
+          </td>
+        </tr>
+      </table>  
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>@Life Magazine Store</h3>            
+    </div>
+  </div>
+
+ <!-- Start of Fashion Clothes page -->
+     <div is="page" id="Fashion Clothes" data-role="page" data-position="fixed" data-theme="c">
+         <div id="banner" style="background-position: center center; background-size: cover; background-image: url(images/Coverfashionclothes.gif); height: 300px;" >
+              <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide"s href="index.html" rel="internal"></a>
+            </div>
+            <div is="content" role="main" class="ui-content">
+              <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#32f,#77a); color:#fff;">Fashion Clothes</li>
+              </ul>
+              <ul is="listview" data-role="listview" data-inset="true" id="clothes_list" style="margin:0;">
+                <li is="listview-li">
+                  <a href="#Content1" data-transition="slideup"  style="background-color: rgb(236, 24, 110); color: blue;"><img src="images/Dior.png" alt="Dior" style="height: 100%;">Dior</a>
+                </li>
+                <li is="listview-li">
+                  <a href="#Content2" data-transition="flip" style="background-color: rgb(236, 24, 110); color: blue;"><img src="images/Versace.png" alt="Versace" style="height: 200%;width: 100%;">Versace</a>
+                </li>
+                <li is="listview-li">
+                  <a href="#Content3" data-transition="float" style="background-color: rgb(236, 24, 110); color: blue;"><img src="images/Gucci.png" alt="Gucci" style="height: 100%;">Gucci</a>
+                </li>
+                <li is="listview-li">
+                  <a href="#Content4" data-transition="slide down" style="background-color: rgb(236, 24, 110); color: blue;"><img src="images/chanel.png" alt="Chanel" style="height: 100%;">Chanel</a>
+                </li>
+              </ul>
+            </div>
+            <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+              <h3>@Life Magazine Store</h3>            
+            </div>
+          </div>
+          
+     <!-- Dior Page: Content --> 
+          <div id="Content1" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="c">
+              <h3> Dior brand </h3>
+              <a class="ui-btn ui-btn-left" href="#Fashion Clothes" data-transition="slideup" data-direction="reverse">Back</a>
+            </div>
+            <div class="ui-content">
+              <div style="margin-top: 30px;" role="main" class="ui-content">
+                <div is="grid" class="ui-grid-b" style="height:400px">
+                  <div class="ui-block-a" style="height:100%;text-align:center">
+                    <img src="images/sweet Dior.webp" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">Sports shirt</h5>
+                    <input  onclick="document.location.href='https://www.dior.com/zh_tw'" type="button" value="Purchase"></input>
+                  </div>
+                  <div class="ui-block-b" style="height:100%;text-align:center">
+                    <img src="images/Suit Dior.webp" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">Suit</h5>
+                    <input onclick="document.location.href='https://www.dior.com/zh_tw'" type="button" value="Purchase"></input>
+                  </div>
+                  <div class="ui-block-c" style="height:100%;text-align:center">
+                    <img src="images/T-shirt Dior.webp" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">T-shirt</h5>
+                    <input onclick="document.location.href='https://www.dior.com/zh_tw'" type="button" value="Purchase"></input>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Versace Page: Content  --> 
+          <div id="Content2" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="c">
+              <h3>Versace brand</h3>
+              <a class="ui-btn ui-btn-left" href="#Fashion Clothes" data-transition="slideup" data-direction="reverse">Back</a>
+            </div>
+            <div class="ui-content">
+              <div style="margin-top: 30px;" role="main" class="ui-content" id="Content2">
+                <div is="grid" class="ui-grid-b" style="height:400px">
+                  <div class="ui-block-a" style="height:100%;text-align:center">
+                    <img src="images/Jacket-versace.jpg" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">Jacket</h5>
+                    <input  onclick="document.location.href='https://www.versace.com/international/en/home/'" type="button" value="Purchase"></input>
+                  </div>
+                  <div class="ui-block-b" style="height:100%;text-align:center">
+                    <img src="images/dress versace.jpg" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">Dress</h5>
+                    <input onclick="document.location.href='https://www.versace.com/international/en/home/'" type="button" value="Purchase"></input>
+                  </div>
+                  <div class="ui-block-c" style="height:100%;text-align:center">
+                    <img src="images/Shirt versace.jpg" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">Shirt</h5>
+                    <input onclick="document.location.href='https://www.versace.com/international/en/home/'" type="button" value="Purchase"></input>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Gucci Page: Content  --> 
+          <div id="Content3" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="c">
+              <h3>Gucci brand</h3>
+              <a class="ui-btn ui-btn-left" href="# Fashion Clothes" data-transition="slideup" data-direction="reverse">Back</a>
+            </div>
+            <div class="ui-content">
+              <div style="margin-top: 30px;" role="main" class="ui-content" id="Content3">
+                <div is="grid" class="ui-grid-b" style="height:400px">
+                  <div class="ui-block-a" style="height:100%;text-align:center">
+                    <img src="images/Coat - Gucci.jpg" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;"> White Coat</h5>
+                    <input  onclick="document.location.href='https://www.gucci.com/int/en/'" type="button" value="Purchase"></input>
+                  </div>
+                  <div class="ui-block-b" style="height:100%;text-align:center">
+                    <img src="images/leather sandal - gucci.jpg" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;"> Leather Sandal</h5>
+                    <input onclick="document.location.href='https://www.gucci.com/int/en/'" type="button" value="Purchase"></input>
+                  </div>
+                  <div class="ui-block-c" style="height:100%;text-align:center">
+                    <img src="images/Bag- gucci.jpg" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">Super Bag</h5>
+                    <input  onclick="document.location.href='https://www.gucci.com/int/en/'" type="button" value="Purchase"></input>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Chanel Page: Content  --> 
+          <div id="Content4" data-role="page" >
+            <div data-role="header" data-position="fixed" data-theme="c">
+              <h3>Chanel brand</h3>
+              <a class="ui-btn ui-btn-left" href="#Fashion Clothes" data-transition="slideup" data-direction="reverse">Home</a>
+            </div>
+            <div class="ui-content">
+              <div style="margin-top: 30px;" role="main" class="ui-content" id="Content4">
+                <div is="grid" class="ui-grid-b" style="height:400px">
+                  <div class="ui-block-a" style="height:100%;text-align:center">
+                    <img src="images/dress-chanel.jfif" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">Dress</h5>
+                    <input  onclick="document.location.href='https://www.chanel.com/au/fashion/ready-to-wear/l/1x1x9x8/dresses/'" type="button" value="Purchase"></input>
+                  </div>
+                  <div class="ui-block-b" style="height:100%;text-align:center">
+                    <img src="images/Sweater - Chanel.jfif" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">Sweater</h5>
+                    <input  onclick="document.location.href='https://www.chanel.com/au/fashion/ready-to-wear/l/1x1x9x8/dresses/'" type="button" value="Purchase"></input>
+                  </div>
+                  <div class="ui-block-c" style="height:100%;text-align:center">
+                    <img src="images/high-heel.jfif" style="width:100px; height: 100px; margin-top: 50px">
+                    <h5  style="text-align:center; margin-top:-5px;">High-heel</h5>
+                    <input  onclick="document.location.href='https://www.chanel.com/au/fashion/ready-to-wear/l/1x1x9x8/dresses/'" type="button" value="Purchase"></input>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    <!-- Start of Online Shopping page  -->
+  <div is="page" id="Online Shopping" data-role="page" data-position="fixed" data-theme="c">
+    <div is="header" data-role="header" data-position="fixed" data-theme="a">
+        <h1 style="color: red;text-align:center;font-size:24px;">Life Magazine</h1>
+        <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+    </div>
+  <h1>Online Shopping</h1>
+  <div class="table" id="content">
+    <div style="margin-bottom: 30px">
+      <br>
+      <form action="/action_page.php" id="contact_form">
+        <p>Customer's name:<br>
+          <input type="text" style="width:100%; text-align: left" name="name" value=""></p>
+          <p>Name of product:<br>
+            <input type="text" style="width:100%; text-align: left" name="email" value=""></p>
+            <p>Phone number<br>
+              <textarea name="Ordering" style="width: 100%" rows="5"></textarea></p>
+              <input type="submit" class="button g-recaptcha"
+              value="Ordering goods" 
+              data-sitekey="6Lfib1QUAAAAAG7LdFQGJuGMEwK0-qXlXcSDcr0Z" data-callback='submit_with_recaptcha'>
+            </form>
+          </div>
+          <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+            <h3>@Life Magazine Store</h3>            
+          </div>
+        </div>
+</body>
+</html>

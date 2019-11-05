@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:gap="tw.edu.nfu.LifeMagazine" xmlns="http://www.w3.org/ns/widgets" version="1.0.0" id="tw.edu.nfu.eZTravel">
+
+<!-- versionCode is optional and Android only -->
+<name>Life Magazine store</name>
+<description>Life Magazine store is a page online where customers can find information and buy clothes and food
+  </description>
+  <author href="https://www.nfu.edu.tw/zh/" email="10861126@gm.nfu.edu.tw">
+      Nguyen Thi Minh Hoa - 阮 氏 明 和
+  </author>
+  <content src="index.html" />
+  <platform name="android">
+    <icon src="res/LifeMagazine.jpg" />
+    <icon src="res/android/LifeMagazine.jpg" density="ldpi" />
+    <icon src="res/android/LifeMagazine.jpg" density="mdpi" />
+    <icon src="res/android/LifeMagazine.jpg" density="hdpi" />
+    <icon src="res/android/LifeMagazine.jpg" density="xhdpi" />
+  </platform>
+</widget>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script>
+    $(document).on('pageinit', function () {
+      
+      $('#cartoon_list li').click(function (e) 
+      {
+        var cartoonName = $(this).text();
+        $('#cartoon').text(cartoonName);
+        var heroNum = $(this).index() + 1;
+        $(".cartoonImg").hide();
+        $("#cartoon" + cartoonNum).fadeIn(250);
+      });
+      
+    });
+    
+  </script>
+</head>
+<body>
+  
+  <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(#fff,#ff9)">
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>Cartoon Film</h3>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+        <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">List of film</li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true" id="cartoon_list" style="margin:0;">
+        <li is="listview-li">
+          <a href="#Content" data-transition="slide">Toy story 4</a>
+        </li>
+        <li is="listview-li">
+          <a href="#Content" data-transition="slide">The Incrediables</a>
+        </li>
+        <li is="listview-li">
+          <a href="#Content" data-transition="slide">CoCo</a>
+        </li>
+        <li is="listview-li">
+          <a href="#Content" data-transition="slide">Lion king</a>
+        </li>
+        <li is="listview-li">
+          <a href="#Content" data-transition="slide">Zootopia</a>
+        </li>
+        <li is="listview-li">
+          <a href="#Content" data-transition="slide">Mr. peabody & sherman</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Page: Content  -->
+  <div id="Content" data-role="page">
+    <div data-role="header" data-position="fixed" data-theme="b">
+      <h3>Introduction</h3>
+      <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+    </div>
+    <div class="ui-content">
+      <div id="cartoon" style="font-size:20px; font-weight:bold; width:100%; text-align:center;"></div>
+      <div class="cartoonImg" id="cartoon1" style="display:none;"><img src="https://img.infonet.vn/w490/Uploaded/2019/coy_fexqkx/2019_05_23/toy_story_4.jpg" style="width:100%;"></div>
+      <div class="cartoonImg" id="cartoon2" style="display:none;"><img src="https://upload.wikimedia.org/wikipedia/vi/thumb/6/65/Poster_phim_The_Incrediables.jpg/280px-Poster_phim_The_Incrediables.jpg" style="width:100%;"></div>
+      <div class="cartoonImg" id="cartoon3" style="display:none;"><img src="http://image.phimmoi.net/film/5081/poster.medium.jpg" style="width:100%;"></div>
+      <div class="cartoonImg" id="cartoon4" style="display:none;"><img src="https://top.trangdangtin.com/htdocs/images/news/2019/03/24/800/phim_ho_t_h_nh_chi_u_r_p_01.jpg" style="width:100%;"></div>
+      <div class="cartoonImg" id="cartoon5" style="display:none;"><img src="https://znews-photo.zadn.vn/w660/Uploaded/xbhunku/2016_04_06/ZootopiaNewPosterdisneyszootopia3911626510151564.jpg" style="width:100%;"></div>
+      <div class="cartoonImg" id="cartoon6" style="display:none;"><img src="http://media.nguoitieudung.com.vn/files/f1/2014/03/01/14-phim-chieu-rap-viet-nam-trong-thang-3-1.jpg" style="width:100%;"></div>
+    </div>
+  </div>
+  
+</body>
+</html>
